@@ -1,0 +1,76 @@
+.bbheader{
+    background-color:#fff4f4;
+}
+.nbheader{
+    background-color:#440d40;
+}
+h1{
+    display:none;
+}
+img{
+    max-width:50%;
+}
+nav{
+    background-color:#931c30;
+}
+form>label{
+    display:block;
+    font-size:1.5rem;
+    margin: 1rem 0 .25rem;
+}
+footer{
+    background-color:#931c30;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    color:#fff;
+    padding:1rem;
+}
+nav a{
+    background-color: #931c30;
+    color:#fff;
+    text-decoration:none;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    padding:1rem;
+    margin:.5rem;
+    display:inline;
+}
+form{
+    background-color:#ffd0ae;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size:.5rem;
+    color:#931c30;
+    padding: 1rem 2rem;
+    width:50rem;
+    max-width:calc(90% - 4rem);
+    margin:1rem auto;
+}
+input[type=text], [type=email], [type=date], [type=password], [type=tel]{
+    font-size: 1.25rem;
+    width:calc(100% - 1rem);
+    border:2px solid #dd5403;
+    padding:.5rem;
+    border-radius:.25rem;
+}
+input[type=Reset], [type=Submit]{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding:.5rem 1rem;
+    margin: 1rem 2rem 0 0;
+}
+input[type=Submit]{
+    background-color: #931c30;
+    color:#fff;
+}
+input:hover[type=submit]{
+    background-color:#f52f57;
+}
+input[type=Reset]{
+    background-color:#931c30;
+    color:#fff;
+}
+input:hover[type=Reset]{
+    background-color: #f52f57;
+}
+nav a:hover{
+    background-color:#f52f57;
+}
