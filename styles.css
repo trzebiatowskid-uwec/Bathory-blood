@@ -208,35 +208,35 @@ input:hover[type=Reset]{
 }
 .index-main img{
     max-width:75%;
-    margin:.5rem;
+    margin:auto;
 }
 .index-img-one{
     grid-column:1/2;
     grid-row:1/2;
-    margin:1rem 0 0 1rem;
+    margin:auto;
 }
 .index-text-one{
     grid-column:2/3;
     grid-row:1/2;
-    margin:2rem;
-    padding:.5rem;
+    margin:auto;
+    padding:0 1rem 0 0;
 }
 .index-text-two{
     grid-column:1/2;
     grid-row:2/3;
-    margin:2rem;
-    padding:.5rem;
+    margin:auto;
+    padding:0 1rem 0 0;
 }
 .index-img-two{
     grid-column:2/3;
     grid-row:2/3;
-    margin: 0 1rem 1rem 0;
+    margin:auto;
 }
 
 /*login*/
 .login-main{
     background-color: #fff;
-    padding:510rem, 0;
+    padding:0 5rem;
     display:flex;
 }
 .login{
@@ -296,9 +296,10 @@ form>label{
 .positive-table{
     background-color:#931c30;
     color:#fff;
-    text-align:center;
     display:inline-block;
-    padding:0 1rem 1rem 1rem;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
     grid-row:2/3;
     grid-column:2/3;
 }
@@ -307,7 +308,9 @@ form>label{
     color:#fff;
     text-align:center;
     display:inline-block;
-    padding:0 1rem 1rem 1rem;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
     grid-row:3/4;
     grid-column:2/3;
 }
@@ -316,7 +319,9 @@ form>label{
     color:#fff;
     text-align:center;
     display:inline-block;
-    padding:0 1rem 1rem 1rem;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
     grid-row:4/5;
     grid-column:2/3;
 }
@@ -338,22 +343,29 @@ th{
     .index-text-one{
         grid-row:1/2;
         grid-column:1/2;
-        margin:1rem 7rem;
+        margin-left:auto;
+        margin-right:auto;
     }
     .index-img-one{
         grid-row:1/2;
         grid-column:2/3;
         width:120%;
+        margin-left:auto;
+        margin-right:auto;
     }
     .index-text-two{
         grid-row:1/2;
         grid-column:3/4;
         margin:1rem 7rem;
+        margin-left:auto;
+        margin-right:auto;
     }
     .index-img-two{
         grid-row:1/2;
         grid-column:4/5;
         width:100%;
+        margin-left:auto;
+        margin-right:auto;
     }
     
     /*about*/
@@ -380,6 +392,12 @@ th{
         grid-column:3/4;
     }
 
+    /*appointments*/
+    .contact-us{
+        margin:auto;
+        width:400px;
+    }
+
     /*blog*/
     .blog-main{
         display:grid;
@@ -402,8 +420,8 @@ th{
         display:grid;
         grid-template-rows:50px 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-        gap:2rem 4rem 4rem 4rem;
-        padding:.5rem 2rem 4rem 2rem;
+        gap:4rem;
+        padding:2rem;
     }
     .menu-h2{
         grid-row: 1/2;
@@ -412,22 +430,23 @@ th{
         margin:.5rem;
     }
     .positive-table{
-        margin:0 4rem;
-        padding:2rem 1rem;
+        margin-left:auto;
+        margin-right:auto;
+        padding:1rem 2rem;
         grid-row:2/3;
         grid-column:1/2;
     }
     .negative-table{
-        text-align:center;
-        margin:0 4rem;
-        padding:2rem 1rem;
+        margin-left:auto;
+        margin-right:auto;
+        padding:1rem 2rem;
         grid-row:2/3;
         grid-column:2/3;
     }
     .specialty-table{
-        text-align:center;
-        margin:0 4rem;
-        padding:2rem 1rem;
+        margin-left:auto;
+        margin-right:auto;
+        padding:1rem 2rem;
         grid-row:2/3;
         grid-column:3/4;
     }
